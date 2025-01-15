@@ -1,0 +1,229 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #c5ebff;
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(to right, #008cba, #005f73);
+    color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-bottom: 3px solid #0077b6;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header p {
+    
+    font-size: 1.2em;
+}
+
+/* Content Sections */
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    color: #4a1ab9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.section h2{
+    color:#005f73;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; /* Adjust thickness */
+    text-underline-offset: 3px; /* Adjust distance from text */
+}
+
+.section h3,
+.section h4,
+.section h5,
+.section h6{
+    color: #005f73;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* List Styles */
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style-type: disc;
+    color:#4a1ab9;
+   
+}
+
+li::marker {
+    color: #00b69b; /* Bullet color */
+    font-size: 1.2em; /* Optional: Adjust size of the bullet */
+}
+
+ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Highlighted Text */
+.highlight {
+    font-weight: bold;
+    color: #0077b6;
+    background-color: #e0f7fa;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Links */
+a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Quiz Section */
+.quiz {
+    background-color: #d1f4f9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+.quiz-image {
+    border: 5px solid #4a1ab9;
+    float: left;
+    display: block;
+    margin: 0 auto 10px;
+    width: 120px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    float: right;
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    float: right;
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    float: right;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+
+    float: right;
+    background-color: #005f73;
+}
+
+
+/* Table Styles */
+table {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: left;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333;
+}
+
+header{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color:#005f73;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; /* Adjust thickness */
+    text-underline-offset: 3px; /* Adjust distance from text */
+}
+
+thead th {
+    color: white;
+    background-color: #a4a4a4;
+    padding: 12px;
+    border: 2px solid black;
+}
+
+tbody td{
+    color:#4a1ab9;
+    border: 2px solid black;
+}
+
+tbody tr {
+    background-color: #c5ebff;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #008cba;
+    border: 2px solid black;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #005f73;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-top: 3px solid #0077b6;
+}
+
+.footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+}
